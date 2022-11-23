@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Домашнее задание 1");
 
-        Human max = new Human(1981, "Махо", "Пинск", "кочегар");
-        Human ann = new Human(1991, "АннаВася", "Москва", "старший кочегар");
-        Human kate = new Human(1992, "Катя", "Степанакерт", "кочегар по особо важным делам");
-        Human artem = new Human(1995, "Артэм", "Полоцк", "директором по развитию кочегаров");
+        Human max = new Human(1988, "Максим", "Минск", "бренд-менеджер");
+        Human ann = new Human(1993, "Аня", "Москва", "методист образовательных программ");
+        Human kate = new Human(1992, "Катя", "Калиниград", "продакт-менеджер");
+        Human artem = new Human(1995, "Артем", "Москва", "директор по развитию бизнеса");
 
         System.out.println("Задание 1");
         max.outPutFirstTask();
@@ -20,10 +20,10 @@ public class Main {
         artem.outPutSecondTask();
 
         System.out.println("Задание 3");
-        Car lada = new Car("Жигули ", " BMX ", 1.9, " Желтый ", 1987, " СССР");
-        Car audi = new Car("Запорожец ", " A8 ", 1.0, " Черный ", 2020, " Германия");
-        Car bmw = new Car("Москвич ", " Panamera ", 2.0, " Черный ", 2000, " Германия");
-        Car kia = new Car("АВТО ", " SuperMax ", 2.4, " Красный ", 2018, " Южная Корея");
+        Car lada = new Car("Лада ", "Granta", 1.7, " Желтый ", 2015, " СССР");
+        Car audi = new Car("Audi ", "A8 50 L TDI quattro ", 3.0, " Черный ", 2020, " Германия");
+        Car bmw = new Car("BMW ", " Z8 ", 3.0, " Черный ", 2021, " Германия");
+        Car kia = new Car("KIA ", " Sportage 4 ", 2.4, "красный ", 2018, " Южная Корея");
         Car hyundai  = new Car("Hyundai ", " Avante ", 1.6, " Оранжевый ", 2016, " Южная Корея");
 
         System.out.println(lada);
